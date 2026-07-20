@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atelier Studio — Digital Craft</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#top" class="logo" aria-label="Atelier Studio home">
+        <span class="logo-mark" aria-hidden="true">▲</span>
+        Atelier<span class="logo-thin">Studio</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav"
+        aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+        <ul>
+          <li><a href="#work" class="nav-link" data-link>Work</a></li>
+          <li><a href="#process" class="nav-link" data-link>Process</a></li>
+          <li><a href="#about" class="nav-link" data-link>About</a></li>
+          <li><a href="#contact" class="nav-link nav-cta" data-link>Start a project</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero" id="hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Full‑Stack Craft, Project 01</p>
+          <h1>We build interfaces<br>that bend, not break.</h1>
+          <p class="hero-sub">
+            Mobile-first layouts, semantic markup, and interaction design
+            for teams who care about the inches between breakpoints as much
+            as the big picture.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Start a project</a>
+            <a href="#work" class="btn btn-ghost">See the work</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="device device-desktop">
+            <div class="device-bar"></div>
+            <div class="device-screen">
+              <div class="skeleton-line w-60"></div>
+              <div class="skeleton-line w-40"></div>
+              <div class="skeleton-grid">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+          <div class="device device-mobile">
+            <div class="device-notch"></div>
+            <div class="device-screen">
+              <div class="skeleton-line w-70"></div>
+              <div class="skeleton-line w-50"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK / CONTENT GRID -->
+    <section class="work" id="work">
+      <article class="section-head">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Three ways we've solved "it doesn't fit."</h2>
+      </article>
+
+      <div class="work-grid">
+        <article class="work-card">
+          <div class="work-thumb thumb-a" aria-hidden="true"></div>
+          <h3>Northside Market</h3>
+          <p>A single-column storefront that reflows into a three-column
+            catalogue past the tablet breakpoint, no layout shift, no
+            content reshuffle.</p>
+          <span class="tag">CSS Grid</span>
+        </article>
+
+        <article class="work-card">
+          <div class="work-thumb thumb-b" aria-hidden="true"></div>
+          <h3>Loop Analytics</h3>
+          <p>A dashboard nav that collapses into a bottom bar on phones and
+            a side rail on desktop, built from one semantic
+            <code>&lt;nav&gt;</code>.
+          </p>
+          <span class="tag">Flexbox</span>
+        </article>
+
+        <article class="work-card">
+          <div class="work-thumb thumb-c" aria-hidden="true"></div>
+          <h3>Field Notes</h3>
+          <p>A reading app where type size and line length stay comfortable
+            from a 320px phone to a 27" monitor, using fluid
+            <code>clamp()</code> typography.
+          </p>
+          <span class="tag">Fluid Type</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROCESS (the roadmap, made real) -->
+    <section class="process" id="process">
+      <article class="section-head">
+        <p class="eyebrow">How We Work</p>
+        <h2>Six steps, in order, every time.</h2>
+      </article>
+
+      <ol class="process-list">
+        <li><span class="step">01</span>
+          <div>
+            <h3>Discovery</h3>
+            <p>Define how we might solve it.</p>
+          </div>
+        </li>
+        <li><span class="step">02</span>
+          <div>
+            <h3>Wireframe</h3>
+            <p>Grayscale, mobile-first, no color crutches.</p>
+          </div>
+        </li>
+        <li><span class="step">03</span>
+          <div>
+            <h3>Semantics</h3>
+            <p>Header, nav, main, article, footer — in that meaning.</p>
+          </div>
+        </li>
+        <li><span class="step">04</span>
+          <div>
+            <h3>Style</h3>
+            <p>Grid for structure, Flexbox for components.</p>
+          </div>
+        </li>
+        <li><span class="step">05</span>
+          <div>
+            <h3>Logic</h3>
+            <p>State and interactivity, kept minimal and obvious.</p>
+          </div>
+        </li>
+        <li><span class="step">06</span>
+          <div>
+            <h3>Audit</h3>
+            <p>Performance and accessibility, checked, not assumed.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="about-grid">
+        <div class="about-copy">
+          <p class="eyebrow">About the Studio</p>
+          <h2>We research before we guess.</h2>
+          <p>Every layout starts with an empathy map — what the user says,
+            thinks, does, and feels — before a single div gets drawn. It's
+            slower at the start and faster everywhere after.</p>
+          <ul class="stat-row">
+            <li><strong id="statBreakpoints">0</strong><span>breakpoints respected</span></li>
+            <li><strong id="statDevices">0</strong><span>device widths tested</span></li>
+            <li><strong>100%</strong><span>frameworks used: none</span></li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>Try the layout live</h3>
+          <p>Resize this window, or tap below to preview how the page
+            behaves at common widths.</p>
+          <div class="preview-buttons" role="group" aria-label="Preview breakpoint">
+            <button type="button" class="chip" data-width="375">Mobile</button>
+            <button type="button" class="chip" data-width="820">Tablet</button>
+            <button type="button" class="chip" data-width="100%">Desktop</button>
+          </div>
+          <p class="preview-readout" id="widthReadout">Current viewport: <span id="liveWidth">—</span>px</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="contact-card">
+        <h2>Have a layout that's fighting back?</h2>
+        <p>Tell us what's breaking and at what width. We'll tell you why.</p>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+          <div class="field field-full">
+            <label for="message">What needs fixing?</label>
+            <textarea id="message" name="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary field-full">Send message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; <span id="year"></span> Atelier Studio. Built with semantic HTML, CSS Grid, JavaScript &amp; Flexbox —
+        zero
+        frameworks.</p>
+      <button id="backToTop" class="back-to-top" aria-label="Back to top">↑ Top</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
