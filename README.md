@@ -61,16 +61,8 @@ No additional installation is required.
 ---
 
 ## 📸 Preview
-
-> Add a screenshot of your website here.
-
 Example:
-
-
-```md
-![Atelier Studio Preview](images/preview.png)
-```
-
+![Atelier Studio Preview](preview.png)
 ---
 
 ## 📚 What I Learned
