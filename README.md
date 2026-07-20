@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎨 Decodelab Project 1 – Atelier Studio
 
 A modern and responsive landing page built using **HTML5, CSS3, and JavaScript**. This project showcases a clean UI with smooth animations, responsive design, and an elegant user experience.
@@ -99,3 +100,6 @@ Example:
 - GitHub: https://github.com/riya609
 
 ---
+=======
+
+>>>>>>> 6352209d7d88ade199e3b2d4c0e5ed734af54468
